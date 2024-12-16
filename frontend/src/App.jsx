@@ -1,9 +1,11 @@
-
+import FetchApi from "./components/fetch/FetchApi";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <FetchApi />
+    </div>
+  );
+};
 
-export default App
+export default App;
