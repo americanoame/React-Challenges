@@ -7,11 +7,16 @@ const RockPaperScissors = () => {
 
  const possibleChoice = ["rock", "paper", "scissors"];
 
- const playerChoice = (choice) => {
+ const playerPick= (choice) => {
     setPrayerChoice(choice)
+ 
 
-    
+    const computerPick = possibleChoice[Math.floor(Math.random() * possibleChoice.length)];
+    setComputerChoice(setComputerChoice);
+
  }
+
+ 
 
   return (
     <div>RockPaperScissors</div>
