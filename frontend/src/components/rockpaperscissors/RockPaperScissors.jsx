@@ -12,7 +12,7 @@ const RockPaperScissors = () => {
 
     const computerPick =
       possibleChoices[Math.floor(Math.random() * possibleChoices.length)];
-    setComputerChoice(setComputerChoice);
+    setComputerChoice(computerPick);
 
     determiWinner(choice, computerPick);
   };
